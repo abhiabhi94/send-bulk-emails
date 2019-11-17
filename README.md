@@ -13,7 +13,9 @@ Send bulk emails by just cloning the script and putting the required data files 
       "`password`": "mypassword",
       "`subject`" : "Subject of the email"
 
-  } \* For using gmail use:  
-   "`smtp`" : "smtp.gmail.com"
+  }
+
+  - For using gmail use:  
+    "`smtp`" : "smtp.gmail.com"
 
 - After executing the scripts, a file `sent_info.txt` which will contain information about the `indexes` and values where emails weren't send alongwith the `exceptions`.
