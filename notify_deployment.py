@@ -55,4 +55,4 @@ if __name__ == "__main__":
     else:
         subject = args.subject
 
-    send_email(subject=subject, msg=args.msg, sender=SENDER, receivers=RECEIVERS)
+    send_email(subject=subject, msg=args.msg, sender=sender, receivers=RECEIVERS)
